@@ -8,6 +8,7 @@ import day5
 import day6
 import day7
 import day8
+import day9
 
 day1.run()
 day2.run()
@@ -17,3 +18,4 @@ day5.run()
 day6.run()
 day7.run()
 day8.run()
+day9.run()
