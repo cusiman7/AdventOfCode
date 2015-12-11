@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def run():
   import md5
   input = 'iwrupvqb'
@@ -17,4 +18,6 @@ def run():
     if(h5 is not "" and h6 is not ""):
       break
     print("\r" + h), # Because yay
-  
+
+if __name__ == '__main__':
+  run()   

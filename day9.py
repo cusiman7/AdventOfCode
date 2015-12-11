@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def run():
   import copy
   import sys
@@ -41,3 +42,6 @@ def run():
   print("9.a {}".format(routes[0]))
   print("9.b {}".format(routes[1]))
   input.close()
+
+if __name__ == '__main__':
+  run() 

@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def run():
   import copy
   input = open('day7.txt', 'r')
@@ -48,3 +49,6 @@ def run():
   print("7.a {}".format(a1 & 0xFFFF))
   print("7.b {}".format(a2 & 0xFFFF))
   input.close()
+
+if __name__ == '__main__':
+  run() 

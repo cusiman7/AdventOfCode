@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def run():
   import string
   input = open('day5.txt', 'r')
@@ -37,4 +38,7 @@ def run():
 
   print('5.a {}'.format(countA))
   print('5.b {}'.format(countB))
-  input.close()    
+  input.close()   
+
+if __name__ == '__main__':
+  run()  

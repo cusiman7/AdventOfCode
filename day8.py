@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def run():
   import re
   input = open('day8.txt', 'r')
@@ -19,3 +20,6 @@ def run():
   print("8.a {}".format(code - data))
   print("8.b {}".format(encoded - code))
   input.close()
+
+if __name__ == '__main__':
+  run() 

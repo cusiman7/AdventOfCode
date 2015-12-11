@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def run():
   import re
   input = open('day6.txt', 'r')
@@ -33,3 +34,6 @@ def run():
   print("6.a {}".format(count))
   print("6.a {}".format(brightness))
   input.close()
+
+if __name__ == '__main__':
+  run() 

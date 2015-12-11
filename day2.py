@@ -1,4 +1,4 @@
-
+#!/usr/bin/python 
 def run():
   input = open('day2.txt', 'r')
 
@@ -22,3 +22,6 @@ def run():
   print('2.a {}'.format(sa))
   print('2.b {}'.format(ribbon))
   input.close()
+
+if __name__ == '__main__':
+  run() 

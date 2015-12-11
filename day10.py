@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def run():
   input = '1113222113'
   #Finished #158
@@ -19,3 +20,6 @@ def run():
       print("10.a {}".format(len(next)))
 
   print("10.b {}".format(len(next)))
+
+if __name__ == '__main__':
+  run() 
